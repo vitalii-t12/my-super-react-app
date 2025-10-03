@@ -96,9 +96,9 @@ function App() {
       </div>
 
       <section style={imagesSectionStyles}>
-        <h2 style={{ marginTop: 0, color: '#374151' }}>Framer Design Asset</h2>
+        <h2 style={{ marginTop: 0, color: '#374151' }}>Image Design Asset</h2>
         <p style={{ color: '#6b7280', marginBottom: '1rem' }}>
-          Image loaded from Framer (with graceful fallback on load errors):
+          Image loaded from server (with graceful fallback on load errors):
         </p>
         <div style={imageContainerStyles}>
           {!imageError && (
