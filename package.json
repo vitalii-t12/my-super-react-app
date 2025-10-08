@@ -7,7 +7,7 @@
     "start": "npx vite --host",
     "dev": "npx vite --host",
     "build": "npx vite build",
-    "serve": "npm run build && npx vite preview --host",
+    "serve": "npx vite preview --host",
     "lint": "npx eslint .",
     "preview": "npx vite preview --host"
   },
